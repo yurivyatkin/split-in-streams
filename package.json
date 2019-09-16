@@ -1,0 +1,49 @@
+{
+  "name": "JavaScriptKata",
+  "version": "1.0.0",
+  "description": "My training spot for coding exercises",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurivyatkin/js-kata"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Yuri Vyatkin",
+  "license": "Unlicense",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "7.9.1",
+    "jest": "^24.8.0",
+    "prettier": "1.13.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "jest": true
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "pull-files": "^1.1.0",
+    "pull-group": "^1.0.1",
+    "pull-merge": "^1.0.4",
+    "pull-sort": "^1.0.2",
+    "pull-stream": "^3.6.14",
+    "pull-tee": "^2.0.1",
+    "pull-write-file": "^0.2.4"
+  }
+}
